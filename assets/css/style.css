@@ -5,15 +5,14 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #f5f5f5;
 }
-/*the .header classes applied to div elements have been updated in the HTML file to 
-header elements with the appropriate styling*/
+
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 70px;
+    font-family: 'Helvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(31, 31, 192);
+    color: #f5f5f5;
 }
 
 header h1 {
@@ -29,7 +28,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     display: inline-block;   
 }
@@ -44,7 +43,7 @@ header nav ul li {
 }
 
 a {
-    color: #ffffff;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
@@ -53,10 +52,10 @@ p {
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    height: 600px;
+    width: 50%;
+    /* margin-bottom: 25px; */
+    background-image: url("/Users/malikhenry/Desktop/MAH-Portfolio-HW2/assets/images/IMG_0825.png");
     background-size: cover;
     background-position: center;
 }
@@ -72,7 +71,7 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -84,14 +83,13 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    font-family: 'Helvetica', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9b4e4e;
 }
-/*consolidated the redundant blocks of code into one benefit-all class. Additional blocks 
-added for h3 and img elements as well.*/
+
 .benefit-all {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #f5f5f5;
 }
 
 .benefit-all h3 {
@@ -105,17 +103,23 @@ added for h3 and img elements as well.*/
     max-width: 150px;
 }
 
-/*lines 112-136 originally are a triple-print of code that performs the same function.
-They have been consolidated into a single benefit-block class. img and h2 elements have been
-updated as well*/
+.about-me-container{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 25px;
+     margin: 20px 20px;
+}
+
+
 
 .benefit-block {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-family: 'Helvetica', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(31, 31, 192);
+    color: #f5f5f5;
+    
 }
 
 .benefit-block img {
@@ -129,11 +133,59 @@ updated as well*/
 
 footer {
     padding: 30px;
+    margin: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Helvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: rgb(31, 31, 192);
 }
 
 footer h2 {
-    font-size: 20px;
+    font-size: 40px;
 }
+
+.about-me-block{
+       padding: 50px;
+       font-family: 'Helvetica', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: rgb(31, 31, 192);
+       color: #f5f5f5;
+}
+
+.about-me-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.big-block {
+    background-image: none;
+    height: 600px;
+    padding: 50px;
+}
+
+.smaller-blocks {
+    background-image: none;
+    height: 200px;
+    padding: 25px;
+}
+
+.my-work-block {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 700px;
+    font-family: 'Helvetica', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(31, 31, 192);
+    color: #f5f5f5;
+}
+
+.my-work-block img {
+    max-height: 500px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+     flex-direction: column;
+     border-color: orange;
+     }
+
+    }
