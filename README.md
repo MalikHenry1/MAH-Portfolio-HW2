@@ -5,4 +5,5 @@ Personal Portfolio and Code Repository for HW2
 
 The important skills cultivated in the course include flexbox, media queries, relative linking, semantic HTML, and all criteria from HW1 assignment of and relating to search engine optimization. Below I have included the link to the deployed application and the a link to this GitHub repository.
 
-Portfolio Website: 
+Portfolio Website: https://malikhenry1.github.io/MAH-Portfolio-HW2/
+GitHub: https://github.com/MalikHenry1/MAH-Portfolio-HW2/edit/main
