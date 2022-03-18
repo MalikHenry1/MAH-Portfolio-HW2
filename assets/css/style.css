@@ -55,7 +55,7 @@ p {
     height: 600px;
     width: 50%;
     /* margin-bottom: 25px; */
-    background-image: url("/Users/malikhenry/Desktop/MAH-Portfolio-HW2/assets/images/IMG_0825.png");
+    background-image: url("../assets/images/IMG_0825.png");
     background-size: cover;
     background-position: center;
 }
