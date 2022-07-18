@@ -9,4 +9,6 @@ Portfolio Website: https://malikhenry1.github.io/MAH-Portfolio-HW2/
 
 GitHub: https://github.com/MalikHenry1
 
-Résumé: https://docs.google.com/document/d/1PayZQeEdVnv81ZwQVmI0yNBLxNRVLBRG/edit
+Résumé: https://drive.google.com/file/d/1PMEUDQaNh1myvXZvOR2EBh-pEjQtCyf6/view?usp=sharing
+
+LinkedIn: https://www.linkedin.com/feed/
