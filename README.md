@@ -8,3 +8,5 @@ The important skills cultivated in the course include flexbox, media queries, re
 Portfolio Website: https://malikhenry1.github.io/MAH-Portfolio-HW2/
 
 GitHub: https://github.com/MalikHenry1
+
+Résumé: https://docs.google.com/document/d/1PayZQeEdVnv81ZwQVmI0yNBLxNRVLBRG/edit
